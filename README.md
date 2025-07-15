@@ -35,4 +35,5 @@ Self-Collision During Motion: Upper arm link colliding with base during complex 
 Workspace Constraint Conflicts: Table collision avoidance interfering with precise positioning
 
 # Vedio
- [录屏 07-16-2025 12:21:11 AM.webm](https://github.com/user-attachments/assets/8090b60d-4d12-4077-8d2f-9770103822b0)
+[录屏 07-15-2025 11:57:51 PM.webm](https://github.com/user-attachments/assets/0dedcc3e-b5bc-4685-ad89-4351a6200840)
+
