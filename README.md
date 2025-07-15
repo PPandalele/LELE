@@ -3,27 +3,28 @@ This project implements an autonomous pick-and-place system using a UR5e robotic
 
 # Project Structure 
 ur5e_gripper_moveit_config/
-├── config/                          # Configuration files 
-│   ├── ur5e_gripper_controllers.yaml   # Controller parameters 
-│   ├── joint_limits.yaml               # Joint constraints 
-│   ├── kinematics.yaml                 # Kinematics solver 
-│   ├── ompl_planning.yaml              # Motion planners 
-│   └── initial_positions.yaml          # Initial robot pose 
-├── launch/                          # Launch files
-│   ├── golf_ball_pick_place.launch.py  # Main launch script 
-│   └── golf_ball_controller.py         # Control logic 
-├── urdf/                            # Robot descriptions 
-│   ├── ur5e_gripper.urdf.xacro         # Robot URDF 
-│   └── golf_ball.urdf                  # Object URDF 
-├── worlds/                          # Simulation environments 
-│   └── golf_ball_word.world            # Gazebo world 
-├── srdf/                            # Semantic descriptions 
-│   └── ur5e_gripper.srdf.xacro         # Robot SRDF 
-└── rviz/                            # Visualization 
-    └── view_robot.rviz                  # RViz configuration 
+├── config/                          
+│   ├── ur5e_gripper_controllers.yaml   
+│   ├── joint_limits.yaml              
+│   ├── kinematics.yaml                
+│   ├── ompl_planning.yaml              
+│   └── initial_positions.yaml          
+├── launch/                          
+│   ├── golf_ball_pick_place.launch.py  
+│   └── golf_ball_controller.py         
+├── urdf/                            
+│   ├── ur5e_gripper.urdf.xacro         
+│   └── golf_ball.urdf                  
+├── worlds/                          
+│   └── golf_ball_word.world            
+├── srdf/                            
+│   └── ur5e_gripper.srdf.xacro         
+└── rviz/                            
+    └── view_robot.rviz                
 # Launch
 ros2 launch ur5e_gripper_moveit_config golf_ball_pick_place.launch.py
 
+# Probelm
 ⚠️ Critical Issue: Inaccurate Golf Ball Grasping 
 Problem Description：
 The current system experiences difficulty in accurately grasping golf balls due to several technical challenges encountered during development:
