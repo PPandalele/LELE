@@ -15,7 +15,8 @@ ur5e_gripper_moveit_config/
 ├── urdf/                            
 │   ├── ur5e_gripper.urdf.xacro         
 │   └── golf_ball.urdf                  
-├── worlds/                          
+├── worlds/                         
+
 │   └── golf_ball_word.world            
 ├── srdf/                            
 │   └── ur5e_gripper.srdf.xacro         
@@ -32,3 +33,6 @@ Coordinate Frame Misalignment: Discrepancy between ball spawn position and robot
 Trajectory Tolerance Violations: Joint position errors exceeding controller limits (±0.2 rad)
 Self-Collision During Motion: Upper arm link colliding with base during complex trajectories
 Workspace Constraint Conflicts: Table collision avoidance interfering with precise positioning
+
+# Vedio
+ [录屏 07-16-2025 12:21:11 AM.webm](https://github.com/user-attachments/assets/8090b60d-4d12-4077-8d2f-9770103822b0)
